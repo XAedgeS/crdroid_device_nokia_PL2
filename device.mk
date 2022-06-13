@@ -56,3 +56,6 @@ PRODUCT_PACKAGES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nokia/PL2/PL2-vendor.mk)
+
+# Gapps
+include vendor/gapps/arm64/arm64-vendor.mk
