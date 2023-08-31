@@ -26,7 +26,7 @@ $(call inherit-product, device/nokia/PL2/device.mk)
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # Asserts
 TARGET_OTA_ASSERT_DEVICE := PL2,PL2_sprout,Plate2
