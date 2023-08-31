@@ -54,10 +54,3 @@ PRODUCT_PACKAGES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nokia/PL2/PL2-vendor.mk)
-
-# Fix screen dpi issues (GBoard etc)
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.sf.lcd_density=420
-
-PRODUCT_AAPT_CONFIG := hdpi xhdpi xxhdpi
-PRODUCT_AAPT_PREF_CONFIG := xhdpi

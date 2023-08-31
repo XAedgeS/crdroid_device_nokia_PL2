@@ -48,6 +48,3 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # SELinux
 SELINUX_IGNORE_NEVERALLOWS := true
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
-
-# DT2W
-TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
